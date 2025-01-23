@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    background-color: #6b6971;
+}
+section{
+    width: 70%;
+    margin: auto;
+}
+.head-nav{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    max-height: 10vh;
+    min-height: 10vh;
+   
+   
+
+}
+#logo{
+    flex: 1;
+    font-weight: bold;
+    color: white;
+}
+.head-nav ul{
+    flex: 0.5;
+    display: flex;
+    justify-content: space-between;
+}
+.head-nav ul li {
+    list-style: none;
+    
+}
+.head-nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+   
+}
+.head-nav ul li a:hover {
+    background-color:rgb(58, 106, 89);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+
+}
+#home-img{
+    position: absolute;
+    top: 0;
+    margin:-0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+.Home-nav{
+    
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    
+
+}
+.Home-left{
+    flex: 1;
+    margin-top:0px;
+    color: white;
+}
+.Home-right img{
+    border-radius: 100px;
+    height: 30rem;
+    width: 30rem;
+    box-shadow: 0px 15px 25px rgb(255, 255, 255);
+    
+}
+.Home-right img:hover{
+    border: none;
+    border-radius: 100px;
+    width: 40rem;
+    height: 40rem;
+  
+}
+.Home-left h1{
+    letter-spacing: 2px;
+    margin-top: 2rem;
+   
+}
+.Home-left h2{
+    margin-top: 2rem;
+   width: 50%;
+    letter-spacing: 0px;
+    
+}
+.Home-left button{
+   color: black;
+    margin-top: 2rem;
+    background-color: rgb(58, 106, 89);
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.Home-left button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    
+}
+
+
+.body-nav{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.body-left{
+   width: 50%;
+    margin-top:50px;
+    color: rgb(250, 245, 245);
+}
+.body-right img{
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 400px;
+    height: 25rem;
+    width: 25rem;
+    
+}
+.body-left h1{
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);
+    
+   
+}
+.body-left h2{
+    color: rgb(253, 253, 254);
+    margin-top: 2rem;
+    letter-spacing: 1px;
+    
+}
+.body-left button{
+    margin-top: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+.body-left button:hover{
+    background-color: black;
+    color: white; 
+}
+.body-right img:hover{
+    border-radius: 400px;
+    height: 30rem;
+    width: 30rem;
+
+}
+.title-nav{
+    background-color: blue;
+    width: 100%;
+    height: 5vh;
+}
+#title{
+    
+    margin-top: 2rem;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+#title:hover{
+   
+    color: black;
+
+}
+
+.menu-nav{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu-left img{
+    margin: 5rem -0rem;
+    width: 30rem;
+    height: 20rem;
+    border: none;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.menu-left h2{
+    margin-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+#button{
+    margin-top: 2rem;
+    color: rgb(0, 0, 0)
+    
+}
+#button:hover{
+    background-color: rgb(144, 9, 9);
+    color: white; 
+}
+
+.Social{
+    display: flex;
+    justify-content: center;   
+}
+.Social li{
+    float: left;
+    margin: 10px;
+    display: flex;
+}
+.Social ul li {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.Social img{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 400px;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    margin-top: 2rem;
+    display: flex;
+    border: 2px solid cadetblue;
+    
+    
+}
+#h1{
+    text-align: center;
+    margin-top: 0rem;
+    
+    color: rgb(0, 0, 0);
+}
+.about{
+    width: 80%;
+    height:50vh ;
+  
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about img{
+    width: 20rem;
+    height: 20rem;
+    margin-top:2.5rem ;
+    margin-left: 2rem;
+    border: none;
+    border-radius: 2rem;
+    
+}
+.box1{
+    width: 10rem;
+    height: 20rem;
+  
+    margin-top:2.5rem ;
+    margin-left: 2rem;
+ 
+}
+.box1 h1{
+    
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box1 h3{
+    color: black;
+    margin-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box2{
+    width: 10rem;
+    height: 20rem;
+ 
+    margin-top:2.5rem ;
+    margin-left: -0rem;
+}
+.box2 h1{
+    
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box2 h3{
+    color: black;
+    margin-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box3{
+    width: 25rem;
+    height: 20rem;
+    
+    margin-top:2.5rem ;
+   
+}
+.box3 h1{
+    
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box3 h3{
+    color: black;
+    margin-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+.box3 h2{
+    font-size: 30px;
+    margin-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.follow{
+    margin-top: 2rem;
+}
+.follow i{
+    font-size: 40rem;
+}
